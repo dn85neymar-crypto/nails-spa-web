@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.warm-filter {
+    filter: sepia(0.15) contrast(1.05) brightness(0.95) saturate(1.1);
+}
+
+::selection {
+    background-color: #C48B8B;
+    color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FDFCFB;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D9AAAA;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #C48B8B;
+}
+
+img {
+    -webkit-user-drag: none;
+    pointer-events: none;
+}
